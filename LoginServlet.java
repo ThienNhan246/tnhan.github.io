@@ -22,6 +22,7 @@ public class LoginServlet extends HttpServlet {
     public void init() throws ServletException {
         userDAO = new UserDAO();
         System.out.println("✅ [INIT] LoginServlet initialized successfully!");
+        abcd
     }
     
     @Override
@@ -96,3 +97,4 @@ public class LoginServlet extends HttpServlet {
         response.sendRedirect("index.html");
     }
 }
+
